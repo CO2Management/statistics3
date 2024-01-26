@@ -55,10 +55,10 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<semver2>.freeze, ["~> 3"])
-      s.add_runtime_dependency(%q<awesome_print>.freeze, ["~> 1"])
-      s.add_runtime_dependency(%q<colorize>.freeze, ["~> 0"])
-      s.add_runtime_dependency(%q<psych>.freeze, ["~> 2"])
+      s.add_runtime_dependency(%q<semver2>.freeze, [">= 3"])
+      s.add_runtime_dependency(%q<awesome_print>.freeze, [">= 1"])
+      s.add_runtime_dependency(%q<colorize>.freeze, [">= 0"])
+      s.add_runtime_dependency(%q<psych>.freeze, [">= 2"])
       s.add_development_dependency(%q<rspec>.freeze, ["~> 3"])
       s.add_development_dependency(%q<test-unit>.freeze, [">= 0"])
       s.add_development_dependency(%q<yard>.freeze, ["~> 0.7"])
@@ -73,10 +73,10 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<pry-rescue>.freeze, ["~> 1"])
       s.add_development_dependency(%q<pry-stack_explorer>.freeze, ["~> 0"])
     else
-      s.add_dependency(%q<semver2>.freeze, ["~> 3"])
-      s.add_dependency(%q<awesome_print>.freeze, ["~> 1"])
-      s.add_dependency(%q<colorize>.freeze, ["~> 0"])
-      s.add_dependency(%q<psych>.freeze, ["~> 2"])
+      s.add_dependency(%q<semver2>.freeze, [">= 3"])
+      s.add_dependency(%q<awesome_print>.freeze, [">= 1"])
+      s.add_dependency(%q<colorize>.freeze, [">= 0"])
+      s.add_dependency(%q<psych>.freeze, [">= 2"])
       s.add_dependency(%q<rspec>.freeze, ["~> 3"])
       s.add_dependency(%q<test-unit>.freeze, [">= 0"])
       s.add_dependency(%q<yard>.freeze, ["~> 0.7"])
@@ -92,10 +92,10 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<pry-stack_explorer>.freeze, ["~> 0"])
     end
   else
-    s.add_dependency(%q<semver2>.freeze, ["~> 3"])
-    s.add_dependency(%q<awesome_print>.freeze, ["~> 1"])
-    s.add_dependency(%q<colorize>.freeze, ["~> 0"])
-    s.add_dependency(%q<psych>.freeze, ["~> 2"])
+    s.add_dependency(%q<semver2>.freeze, [">= 3"])
+    s.add_dependency(%q<awesome_print>.freeze, [">= 1"])
+    s.add_dependency(%q<colorize>.freeze, [">= 0"])
+    s.add_dependency(%q<psych>.freeze, [">= 2"])
     s.add_dependency(%q<rspec>.freeze, ["~> 3"])
     s.add_dependency(%q<test-unit>.freeze, [">= 0"])
     s.add_dependency(%q<yard>.freeze, ["~> 0.7"])
